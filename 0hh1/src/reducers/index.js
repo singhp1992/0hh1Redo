@@ -1,3 +1,4 @@
+import board from './board'
 
 ReactDOM.render(
   <Provider store={store}>
@@ -6,4 +7,6 @@ ReactDOM.render(
   document.getElementById('root')
 )
 
-export default {}
+export default {
+  board: board
+}
