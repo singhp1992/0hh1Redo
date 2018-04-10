@@ -8,5 +8,5 @@ ReactDOM.render(
 )
 
 export default {
-  board: board
+  board
 }
